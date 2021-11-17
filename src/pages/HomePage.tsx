@@ -11,10 +11,10 @@ import { Link } from "react-router-dom";
 const HomePage: FC = memo(() => (
   <div className="HomePage">
     <header className="hero">
-      <h1 className="hero-text">
-        Hi There, I am
-        <span> Andrei Yantsevich</span>
-      </h1>
+      <div className="hero-text">
+        <div className="text1">Hi, I&apos;m</div>
+        <span className="text2"> Frontend Developer</span>
+      </div>
       <p className="h-sub-text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
         facere, numquam vitae placeat consequatur corrupti officia quibusdam.
@@ -23,13 +23,13 @@ const HomePage: FC = memo(() => (
       </p>
       <div className="icons">
         <Link to="test" className="icon-holder">
-          <FontAwesomeIcon icon={faTelegram} className="icon fb" />
+          <FontAwesomeIcon icon={faTelegram} className="icon tg" />
         </Link>
         <Link to="test" className="icon-holder">
           <FontAwesomeIcon icon={faGithub} className="icon gh" />
         </Link>
         <Link to="test" className="icon-holder">
-          <FontAwesomeIcon icon={faLinkedin} className="icon yt" />
+          <FontAwesomeIcon icon={faLinkedin} className="icon ln" />
         </Link>
       </div>
     </header>

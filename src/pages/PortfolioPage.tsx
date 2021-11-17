@@ -28,7 +28,7 @@ const PortfolioPage: FC = memo(() => {
   return (
     <div className="PortfolioPage">
       <div className="title">
-        <Tittle title="Portfolios" span="portfolios" />
+        <Tittle title="My Portfolio" span="portfolios" />
       </div>
       <div className="portfolios-data">
         <Categories filter={filter} categories={categories} />

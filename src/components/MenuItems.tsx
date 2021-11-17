@@ -14,8 +14,9 @@ const MenuItems: FC<PropsType> = memo(({ menuItem }) => (
           <img src={item.image} alt="" />
           <ul className="hover-items">
             <li>
-              <a href={item.link1}>{item.icon1}</a>
-              <a href={item.link2}>{item.icon2}</a>
+              <a href={item.link}>
+                <img src={item.icon} alt="" />
+              </a>
             </li>
           </ul>
         </div>

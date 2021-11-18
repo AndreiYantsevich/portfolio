@@ -29,21 +29,21 @@ const Navbar: FC<PropsType> = memo(({ navToggle, setNavToggle }) => (
           onClick={() => setNavToggle(!navToggle)}
           role="presentation"
         >
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="about">About</NavLink>
         </li>
         <li
           className="nav-item"
           onClick={() => setNavToggle(!navToggle)}
           role="presentation"
         >
-          <NavLink to="/portfolio">Portfolio</NavLink>
+          <NavLink to="portfolio">Portfolio</NavLink>
         </li>
         <li
           className="nav-item"
           onClick={() => setNavToggle(!navToggle)}
           role="presentation"
         >
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="contact">Contact</NavLink>
         </li>
       </ul>
 

@@ -2,7 +2,7 @@ import React, { FC, memo, useState } from "react";
 
 import "./App.scss";
 
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 
 import NavBar from "./components/NavBar";
 import AboutPage from "./pages/AboutPage";
@@ -30,7 +30,8 @@ const App: FC = memo(() => {
       <div className="main-content">
         <div className="content">
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/home" element={<HomePage />} />
+            <Route path="/" element={<Navigate replace to="/home" />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/contact" element={<ContactPage />} />

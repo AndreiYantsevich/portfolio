@@ -5,14 +5,13 @@ import Categories from "../components/Categories";
 import MenuItems from "../components/MenuItems";
 import Tittle from "../components/Tittle";
 
-const allCategories = [
-  "All",
-  ...new Set(portfolios.map((item) => item.category)),
-];
-
 const PortfolioPage: FC = memo(() => {
-  const [categories] = useState(allCategories);
   const [menuItems, setMenuItems] = useState(portfolios);
+
+  const allCategories = [
+    "All",
+    ...new Set(portfolios.map((item) => item.category)),
+  ];
 
   const filter = (category): void => {
     if (category === "All") {
@@ -28,10 +27,10 @@ const PortfolioPage: FC = memo(() => {
   return (
     <div className="PortfolioPage">
       <div className="title">
-        <Tittle title="My Portfolio" span="portfolios" />
+        <Tittle title="My Portfolio" span="portfolio" />
       </div>
       <div className="portfolios-data">
-        <Categories filter={filter} categories={categories} />
+        <Categories filter={filter} categories={allCategories} />
         <MenuItems menuItem={menuItems} />
       </div>
     </div>

@@ -1,36 +1,36 @@
 import React, { FC, memo } from "react";
 
 import {
-  faTelegram,
   faGithub,
   faLinkedin,
+  faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
 
 const HomePage: FC = memo(() => (
   <div className="HomePage">
     <header className="hero">
       <div className="hero-text">
         <div className="text1">Hi, I&apos;m</div>
-        <span className="text2"> Frontend Developer</span>
+        <span className="text2"> Andrei Yantsevich</span>
       </div>
       <p className="h-sub-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-        facere, numquam vitae placeat consequatur corrupti officia quibusdam.
-        Blanditiis doloremque nemo ex facilis neque. A sint ipsam earum nemo
-        omnis et.
+        I am a person who has a strong passion for programming. I have
+        experience in creating SPA with React/Redux/TypeScript.
       </p>
       <div className="icons">
-        <Link to="test" className="icon-holder">
+        <a href="https://t.me/yantsev1ch" className="icon-holder">
           <FontAwesomeIcon icon={faTelegram} className="icon tg" />
-        </Link>
-        <Link to="test" className="icon-holder">
+        </a>
+        <a href="https://github.com/AndreiYantsevich" className="icon-holder">
           <FontAwesomeIcon icon={faGithub} className="icon gh" />
-        </Link>
-        <Link to="test" className="icon-holder">
+        </a>
+        <a
+          href="https://www.linkedin.com/in/andrei-yantsevich/"
+          className="icon-holder"
+        >
           <FontAwesomeIcon icon={faLinkedin} className="icon ln" />
-        </Link>
+        </a>
       </div>
     </header>
   </div>

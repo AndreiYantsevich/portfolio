@@ -15,32 +15,33 @@ const AboutPage: FC = memo(() => (
     <ImageSection />
     <Tittle title="My Skills" span="My Skills" />
     <div className="skillsContainer">
-      <SkillsSection skill="Javascript" progress="60%" width="60%" />
-      <SkillsSection skill="Typescript" progress="30%" width="30%" />
-      <SkillsSection skill="React JS" progress="70%" width="70%" />
-      <SkillsSection skill="Node Js" progress="80%" width="80%" />
-      <SkillsSection skill="Python" progress="90%" width="90%" />
-      <SkillsSection skill="Lua" progress="40%" width="40%" />
-      <SkillsSection skill="Java" progress="80%" width="80%" />
-      <SkillsSection skill="Web Design" progress="25%" width="25%" />
-      <SkillsSection skill="UI/Ux Design" progress="76%" width="76%" />
+      <SkillsSection skill="React" width="90%" />
+      <SkillsSection skill="Redux" width="90%" />
+      <SkillsSection skill="Javascript" width="85%" />
+      <SkillsSection skill="Typescript" width="90%" />
+      <SkillsSection skill="HTML5" width="90%" />
+      <SkillsSection skill="CSS3" width="85%" />
+      <SkillsSection skill="Axios/REST API" width="85%" />
+      <SkillsSection skill="Unit Tests/StoryBook" width="80%" />
+      <SkillsSection skill="UI/UX Design" width="80%" />
+      <SkillsSection skill="GitHub/Git" width="85%" />
     </div>
 
     <Tittle title="Services" span="Services" />
     <div className="services-container">
       <ServicesSection
         image={Design}
-        title="Web design"
+        title="Web Development"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit."
       />
       <ServicesSection
         image={Intelligence}
-        title="Artificial Intelligence"
+        title="UI/UX"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit."
       />
       <ServicesSection
         image={Gamedev}
-        title="Game Development"
+        title="Clean Code"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit."
       />
     </div>

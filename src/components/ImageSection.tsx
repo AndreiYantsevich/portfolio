@@ -12,9 +12,10 @@ const ImageSection: FC = memo(() => (
         I am<span> Frontend Developer</span>
       </h4>
       <p className="about-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-        necessitatibus perferendis numquam dolorem cumque facilis. Desir per po
-        la ta doso vi slone ve?
+        Now I am improving my skills in this direction and expanding them with
+        new technologies. I&apos;m planing to study Node.js, because my next
+        focus is to become a Full-Stack Developer. I spend my leisure time on
+        Codewars or with educational books. Open for your suggestions.
       </p>
       <div className="about-details">
         <div className="left-section">
@@ -35,7 +36,7 @@ const ImageSection: FC = memo(() => (
         </div>
       </div>
       <button className="btn" type="button">
-        Download Cv
+        Download CV
       </button>
     </div>
   </div>

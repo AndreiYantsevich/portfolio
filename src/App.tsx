@@ -2,11 +2,10 @@ import React, { FC, memo, useState } from "react";
 
 import "./App.scss";
 
-import { Routes, Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import NavBar from "./components/NavBar";
 import AboutPage from "./pages/AboutPage";
-import BlogPage from "./pages/BlogPage";
 import ContactPage from "./pages/ContactPage";
 import HomePage from "./pages/HomePage";
 import PortfolioPage from "./pages/PortfolioPage";
@@ -21,7 +20,7 @@ const App: FC = memo(() => {
   return (
     <div className="App">
       <div className={`sidebar ${navToggle ? "nav-toggle" : ""}`}>
-        <NavBar />
+        <NavBar navToggle={navToggle} setNavToggle={setNavToggle} />
       </div>
       <div className="nav-btn" onClick={navClick} role="presentation">
         <div className="lines-1" />
@@ -33,8 +32,7 @@ const App: FC = memo(() => {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
-            <Route path="/portfolios" element={<PortfolioPage />} />
-            <Route path="/blogs" element={<BlogPage />} />
+            <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </div>

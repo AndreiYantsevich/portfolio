@@ -3,7 +3,7 @@ import React, { FC, memo } from "react";
 type PropsType = {
   icon: string;
   text1: string;
-  text2: string;
+  text2?: string;
   title: string;
 };
 

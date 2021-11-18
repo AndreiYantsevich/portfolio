@@ -43,6 +43,11 @@
       margin-bottom: 1rem;
     }
   }
+  @media screen and (max-width: 400px) {
+    p {
+      font-size: small;
+    }
+  }
 
   .contact-sect {
     width: 100%;
@@ -53,6 +58,7 @@
   width: 97%;
   padding: 1rem;
   background-color: #191D2B;
+  overflow: hidden;
 
   iframe {
     width: 100%;

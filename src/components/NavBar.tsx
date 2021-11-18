@@ -4,7 +4,12 @@ import { NavLink } from "react-router-dom";
 
 import avatar from "assets/avatar.png";
 
-const Navbar: FC = memo(() => (
+type PropsType = {
+  navToggle: boolean;
+  setNavToggle: (value: boolean) => void;
+};
+
+const Navbar: FC<PropsType> = memo(({ navToggle, setNavToggle }) => (
   <div className="NavBar">
     <nav className="nav">
       <div className="profile">
@@ -12,25 +17,38 @@ const Navbar: FC = memo(() => (
       </div>
 
       <ul className="nav-items">
-        <li className="nav-item">
+        <li
+          className="nav-item"
+          onClick={() => setNavToggle(!navToggle)}
+          role="presentation"
+        >
           <NavLink to="/">Home</NavLink>
         </li>
-        <li className="nav-item">
+        <li
+          className="nav-item"
+          onClick={() => setNavToggle(!navToggle)}
+          role="presentation"
+        >
           <NavLink to="/about">About</NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink to="/portfolios">Portfolios</NavLink>
+        <li
+          className="nav-item"
+          onClick={() => setNavToggle(!navToggle)}
+          role="presentation"
+        >
+          <NavLink to="/portfolio">Portfolio</NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink to="/blogs">Blogs</NavLink>
-        </li>
-        <li className="nav-item">
+        <li
+          className="nav-item"
+          onClick={() => setNavToggle(!navToggle)}
+          role="presentation"
+        >
           <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
 
       <footer className="footer">
-        <p>@Yantsevich 2021</p>
+        <p>2021</p>
       </footer>
     </nav>
   </div>

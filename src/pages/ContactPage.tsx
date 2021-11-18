@@ -10,7 +10,7 @@ import Phone from "assets/phone.svg";
 const ContactPage: FC = memo(() => (
   <div>
     <div className="title">
-      <Tittle title="About Me" span="About Me" />
+      <Tittle title="My Contact" span="My Contact" />
     </div>
     <div className="ContactPage">
       <div className="map-sect">
@@ -26,16 +26,10 @@ const ContactPage: FC = memo(() => (
         />
       </div>
       <div className="contact-sect">
-        <ContactItem
-          icon={Phone}
-          text1="+375 25 7804292"
-          text2="+375 25 9999999"
-          title="Phone"
-        />
+        <ContactItem icon={Phone} text1="+375 25 7804292" title="Phone" />
         <ContactItem
           icon={Email}
           text1="yantsevich92@gmail.com"
-          text2="advencheer@gmail.com"
           title="Email"
         />
         <ContactItem

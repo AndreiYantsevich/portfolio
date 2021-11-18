@@ -30,8 +30,7 @@ const App: FC = memo(() => {
       <div className="main-content">
         <div className="content">
           <Routes>
-            <Route path="/home" element={<HomePage />} />
-            <Route path="/" element={<Navigate replace to="/home" />} />
+            <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/contact" element={<ContactPage />} />

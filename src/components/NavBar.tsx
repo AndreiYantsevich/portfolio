@@ -22,7 +22,7 @@ const Navbar: FC<PropsType> = memo(({ navToggle, setNavToggle }) => (
           onClick={() => setNavToggle(!navToggle)}
           role="presentation"
         >
-          <NavLink to="/home">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li
           className="nav-item"

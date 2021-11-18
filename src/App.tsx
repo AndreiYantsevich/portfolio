@@ -2,7 +2,7 @@ import React, { FC, memo, useState } from "react";
 
 import "./App.scss";
 
-import { Route, Routes, Navigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import NavBar from "./components/NavBar";
 import AboutPage from "./pages/AboutPage";

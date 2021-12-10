@@ -21,17 +21,13 @@ const ImageSection: FC = memo(() => (
         <div className="left-section">
           <p>Full Name</p>
           <p>Age</p>
-          <p>Nationality</p>
           <p>Languages</p>
-          <p>Address</p>
           <p>Country</p>
         </div>
         <div className="right-section">
           <p>: Andrei Yantsevich</p>
           <p>: 29</p>
-          <p>: Belarus</p>
           <p>: English, Russian</p>
-          <p>: Machulischi, Alexandrovo street, 4a</p>
           <p>: Belarus</p>
         </div>
       </div>

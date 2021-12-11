@@ -48,7 +48,7 @@ const Navbar: FC<PropsType> = memo(({ navToggle, setNavToggle }) => (
       </ul>
 
       <footer className="footer">
-        <p>2021</p>
+        <p>© 2021 all rights reserved.</p>
       </footer>
     </nav>
   </div>

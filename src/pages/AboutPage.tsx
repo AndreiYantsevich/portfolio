@@ -31,18 +31,18 @@ const AboutPage: FC = memo(() => (
     <div className="services-container">
       <ServicesSection
         image={Design}
-        title="Web Development"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        title="Development"
+        text="React, Redux, Redux-toolkit"
       />
       <ServicesSection
         image={Intelligence}
-        title="UI/UX"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        title="Foundations"
+        text="JavaScript, TypeScript, HTML5, CSS3"
       />
       <ServicesSection
         image={Gamedev}
-        title="Clean Code"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        title="Testing"
+        text="Unit Tests, SnapShot, Storybook"
       />
     </div>
   </div>

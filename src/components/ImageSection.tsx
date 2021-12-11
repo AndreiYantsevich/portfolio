@@ -1,6 +1,8 @@
 import React, { FC, memo } from "react";
 
 import about from "assets/about.jpg";
+// @ts-ignore
+import CV from "../assets/CV.pdf";
 
 const ImageSection: FC = memo(() => (
   <div className="ImageSection">
@@ -8,9 +10,6 @@ const ImageSection: FC = memo(() => (
       <img src={about} alt="" />
     </div>
     <div className="about-info">
-      <h4>
-        I am<span> Frontend Developer</span>
-      </h4>
       <p className="about-text">
         Now I am improving my skills in this direction and expanding them with
         new technologies. I&apos;m planing to study Node.js, because my next
@@ -32,7 +31,7 @@ const ImageSection: FC = memo(() => (
         </div>
       </div>
       <button className="btn" type="button">
-        Download CV
+        <a href={CV} target={"_blank"} className="link">Download CV</a>
       </button>
     </div>
   </div>

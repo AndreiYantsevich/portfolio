@@ -26,7 +26,7 @@ const ContactPage: FC = memo(() => (
         />
       </div>
       <div className="contact-sect">
-        <ContactItem icon={Phone} text1="+375 25 7804292" title="Phone" />
+        <ContactItem icon={Phone} text1="+375 25 780-42-92" title="Phone" />
         <ContactItem
           icon={Email}
           text1="yantsevich92@gmail.com"
@@ -34,7 +34,7 @@ const ContactPage: FC = memo(() => (
         />
         <ContactItem
           icon={Location}
-          text1="Machulischi, Alexandrovo street, 4a"
+          text1="Machulischi, Molodezhnaya Street, 7"
           text2="Belarus"
           title="Address"
         />

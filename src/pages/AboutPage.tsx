@@ -4,10 +4,10 @@ import ImageSection from "../components/ImageSection";
 import ServicesSection from "../components/ServicesSection";
 import SkillsSection from "../components/SkillsSection";
 import Tittle from "../components/Tittle";
+import Development from "assets/development.svg";
+import Foundations from "assets/foundations.svg";
+import Testing from "assets/testing.svg";
 
-import Design from "assets/design.svg";
-import Gamedev from "assets/game-dev.svg";
-import Intelligence from "assets/intelligence.svg";
 
 const AboutPage: FC = memo(() => (
   <div className="AboutPage">
@@ -30,17 +30,17 @@ const AboutPage: FC = memo(() => (
     <Tittle title="Services" span="Services" />
     <div className="services-container">
       <ServicesSection
-        image={Design}
+        image={Development}
         title="Development"
         text="React, Redux, Redux-toolkit"
       />
       <ServicesSection
-        image={Intelligence}
+        image={Foundations}
         title="Foundations"
         text="JavaScript, TypeScript, HTML5, CSS3"
       />
       <ServicesSection
-        image={Gamedev}
+        image={Testing}
         title="Testing"
         text="Unit Tests, SnapShot, Storybook"
       />

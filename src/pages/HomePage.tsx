@@ -14,7 +14,7 @@ const HomePage: FC = memo(() => (
             <div className="hero-text">
                 <div className="text1">Hi There! I&apos;m</div>
                 <div className="text1">Andrei Yantsevich</div>
-                <span>
+                <span className="effect">
           <ReactTypingEffect text={['<Frontend Developer/>']}
                              speed={100}
                              eraseSpeed={50}

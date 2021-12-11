@@ -21,7 +21,8 @@ const MenuItems: FC<PropsType> = memo(({ menuItem }) => (
           </ul>
         </div>
         <h5>{item.title}</h5>
-        <p>Placeholder paragraph</p>
+        <span>{item.tech}</span>
+        <p>{item.placeholder}</p>
       </div>
     ))}
   </div>

@@ -4,6 +4,7 @@ import todo from 'assets/project-images/todolist.jpg';
 import social from 'assets/project-images/social.png';
 import pulse from 'assets/project-images/pulse.jpg';
 import counter from 'assets/project-images/counter.png';
+import wordpress from 'assets/project-images/wordpress.jpg';
 
 export type PortfolioType = {
     id: number;
@@ -34,7 +35,7 @@ const portfolios = [
         icon: github,
         image: pulse,
         title: 'Pulse Shop',
-        tech: 'HTML5, CSS3, JavaScript.',
+        tech: 'HTML5, SCSS, JavaScript.',
         placeholder: 'A Pixel Perfect Landing Page.'
     },
     {
@@ -66,6 +67,16 @@ const portfolios = [
         title: 'Counter',
         tech: 'React, Redux, Typescript.',
         placeholder: 'An app for counting and saving the result.'
+    },
+    {
+        id: 6,
+        category: 'Landings',
+        link: 'https://github.com/AndreiYantsevich/wordpress',
+        icon: github,
+        image: wordpress,
+        title: 'Wordpress',
+        tech: 'HTML5, CSS3.',
+        placeholder: 'A Pixel Perfect Landing Page.'
     },
 ];
 

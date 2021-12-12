@@ -1,31 +1,31 @@
-import React, { FC, memo } from "react";
+import React, {FC, memo} from 'react';
 
-import { PortfolioType } from "./Allportfolios";
+import {PortfolioType} from './All-Portfolios';
 
 type PropsType = {
-  menuItem: PortfolioType[];
+    menuItem: PortfolioType[];
 };
 
-const MenuItems: FC<PropsType> = memo(({ menuItem }) => (
-  <div className="portfolios">
-    {menuItem.map((item) => (
-      <div className="portfolio" key={item.id}>
-        <div className="image-data">
-          <img src={item.image} alt="" />
-          <ul className="hover-items">
-            <li>
-              <a href={item.link}>
-                <img src={item.icon} alt="" />
-              </a>
-            </li>
-          </ul>
-        </div>
-        <h5>{item.title}</h5>
-        <span>{item.tech}</span>
-        <p>{item.placeholder}</p>
-      </div>
-    ))}
-  </div>
+const MenuItems: FC<PropsType> = memo(({menuItem}) => (
+    <div className="portfolios">
+        {menuItem.map((item) => (
+            <div className="portfolio" key={item.id}>
+                <div className="image-data">
+                    <img src={item.image} alt="image"/>
+                    <ul className="hover-items">
+                        <li>
+                            <a href={item.link}>
+                                <img src={item.icon} alt="icon"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <h5>{item.title}</h5>
+                <span>{item.tech}</span>
+                <p>{item.placeholder}</p>
+            </div>
+        ))}
+    </div>
 ));
 
 export default MenuItems;

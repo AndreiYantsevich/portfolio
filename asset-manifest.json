@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0eed886c.chunk.css",
-    "main.js": "/portfolio/static/js/main.f01a4a53.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f01a4a53.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.accc3b77.chunk.css",
+    "main.js": "/portfolio/static/js/main.b9e10e7b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b9e10e7b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
     "static/js/2.96fbda7d.chunk.js": "/portfolio/static/js/2.96fbda7d.chunk.js",
     "static/js/2.96fbda7d.chunk.js.map": "/portfolio/static/js/2.96fbda7d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.0eed886c.chunk.css.map": "/portfolio/static/css/main.0eed886c.chunk.css.map",
+    "static/css/main.accc3b77.chunk.css.map": "/portfolio/static/css/main.accc3b77.chunk.css.map",
     "static/js/2.96fbda7d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.96fbda7d.chunk.js.LICENSE.txt",
     "static/media/CV.3bdf4ae1.pdf": "/portfolio/static/media/CV.3bdf4ae1.pdf",
     "static/media/about.2fa8f084.jpg": "/portfolio/static/media/about.2fa8f084.jpg",
@@ -21,15 +21,15 @@
     "static/media/github.ce184f68.svg": "/portfolio/static/media/github.ce184f68.svg",
     "static/media/location.08194cba.svg": "/portfolio/static/media/location.08194cba.svg",
     "static/media/phone.da4610ad.svg": "/portfolio/static/media/phone.da4610ad.svg",
-    "static/media/port2.41e2681f.jpg": "/portfolio/static/media/port2.41e2681f.jpg",
-    "static/media/port6.6ca25dbb.jpg": "/portfolio/static/media/port6.6ca25dbb.jpg",
-    "static/media/port7.062318ef.png": "/portfolio/static/media/port7.062318ef.png",
-    "static/media/testing.2ab2a133.svg": "/portfolio/static/media/testing.2ab2a133.svg"
+    "static/media/social.062318ef.png": "/portfolio/static/media/social.062318ef.png",
+    "static/media/testing.2ab2a133.svg": "/portfolio/static/media/testing.2ab2a133.svg",
+    "static/media/todolist.6ca25dbb.jpg": "/portfolio/static/media/todolist.6ca25dbb.jpg",
+    "static/media/uber.41e2681f.jpg": "/portfolio/static/media/uber.41e2681f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0bf68c44.js",
     "static/js/2.96fbda7d.chunk.js",
-    "static/css/main.0eed886c.chunk.css",
-    "static/js/main.f01a4a53.chunk.js"
+    "static/css/main.accc3b77.chunk.css",
+    "static/js/main.b9e10e7b.chunk.js"
   ]
 }

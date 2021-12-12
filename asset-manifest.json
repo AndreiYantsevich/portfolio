@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.accc3b77.chunk.css",
-    "main.js": "/portfolio/static/js/main.b9e10e7b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b9e10e7b.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.a4f1a823.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a4f1a823.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
     "static/js/2.96fbda7d.chunk.js": "/portfolio/static/js/2.96fbda7d.chunk.js",
@@ -24,12 +24,13 @@
     "static/media/social.062318ef.png": "/portfolio/static/media/social.062318ef.png",
     "static/media/testing.2ab2a133.svg": "/portfolio/static/media/testing.2ab2a133.svg",
     "static/media/todolist.6ca25dbb.jpg": "/portfolio/static/media/todolist.6ca25dbb.jpg",
-    "static/media/uber.41e2681f.jpg": "/portfolio/static/media/uber.41e2681f.jpg"
+    "static/media/uber.41e2681f.jpg": "/portfolio/static/media/uber.41e2681f.jpg",
+    "static/media/wordpress.9530d0f5.jpg": "/portfolio/static/media/wordpress.9530d0f5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0bf68c44.js",
     "static/js/2.96fbda7d.chunk.js",
     "static/css/main.accc3b77.chunk.css",
-    "static/js/main.b9e10e7b.chunk.js"
+    "static/js/main.a4f1a823.chunk.js"
   ]
 }

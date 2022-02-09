@@ -9,14 +9,14 @@ type PropsType = {
 
 const Categories: FC<PropsType> = memo(({filter, categories}) => (
     <div className="buttons">
-        {categories.map((cat, i) => (
+        {categories.map((c, i) => (
             <button
                 type="button"
                 className="btn-port"
-                onClick={() => filter(cat)}
+                onClick={() => filter(c)}
                 key={portfolios[i].id}
             >
-                {cat}
+                {c}
             </button>
         ))}
     </div>

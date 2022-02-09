@@ -13,7 +13,7 @@ const HomePage: FC = memo(() => (
         <header className="hero">
             <div className="hero-text">
                 <div className="text1">Hi There! I&apos;m</div>
-                <div className="text1">Andrei Yantsevich</div>
+                <div className="text1">Andrey Yantsevich</div>
                 <span className="effect">
           <ReactTypingEffect text={['<Frontend Developer/>']}
                              speed={100}
@@ -30,11 +30,11 @@ const HomePage: FC = memo(() => (
                 <a href="https://t.me/yantsev1ch" className="icon-holder">
                     <FontAwesomeIcon icon={faTelegram} className="icon tg"/>
                 </a>
-                <a href="https://github.com/AndreiYantsevich" className="icon-holder">
+                <a href="https://github.com/yantsev1ch" className="icon-holder">
                     <FontAwesomeIcon icon={faGithub} className="icon gh"/>
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/andrei-yantsevich/"
+                    href="https://www.linkedin.com/in/yantsev1ch/"
                     className="icon-holder"
                 >
                     <FontAwesomeIcon icon={faLinkedin} className="icon ln"/>

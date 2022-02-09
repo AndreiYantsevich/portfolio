@@ -4,15 +4,8 @@
   margin-bottom: 4rem;
 
   .img {
-    width: 100%;
-    height: 50vh;
     overflow: hidden;
-
-    img {
-      width: 100%;
-      object-fit: cover;
-      height: 100%;
-    }
+    object-fit: cover;
   }
 
   .about-info {
@@ -23,7 +16,7 @@
     }
 
     .about-text {
-      padding: 1rem 0;
+      padding: 0;
     }
   }
 
@@ -96,13 +89,15 @@
 }
 
 .btn-port {
-  padding: .6rem 2rem;
+  width: 150px;
+  height: 50px;
   background-color: #0381ff5b;
   border: none;
   outline: none;
   cursor: pointer;
   font-size: inherit;
   font-family: inherit;
+  text-align: center;
   color: white;
   margin-bottom: 1rem;
   transition: all .3s ease-in-out;
@@ -126,15 +121,18 @@
 
 .buttons {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin: 4rem 10rem;
-  flex-wrap: wrap;
   @media screen and (max-width: 1270px) {
     margin: 2rem 5rem;
   }
   @media screen and (max-width: 1100px) {
     margin: 2rem 2rem;
+  }
+  @media screen and (max-width: 400px) {
+    margin: 2rem 2rem;
+    font-size: 1.0rem;
   }
 }
 

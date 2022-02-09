@@ -6,9 +6,7 @@ import CV from '../assets/CV.pdf';
 
 const ImageSection: FC = memo(() => (
     <div className="ImageSection">
-        <div className="img">
-            <img src={about} alt="avatar"/>
-        </div>
+        <img src={about} alt="avatar" className="img"/>
         <div className="about-info">
             <p className="about-text">
                 Now I am improving my skills in this direction and expanding them with
@@ -24,7 +22,7 @@ const ImageSection: FC = memo(() => (
                     <p>Country</p>
                 </div>
                 <div className="right-section">
-                    <p>: Andrei Yantsevich</p>
+                    <p>: Andrey Yantsevich</p>
                     <p>: 29</p>
                     <p>: English, Russian</p>
                     <p>: Belarus</p>

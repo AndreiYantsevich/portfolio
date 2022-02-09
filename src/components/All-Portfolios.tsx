@@ -10,6 +10,7 @@ export type PortfolioType = {
     id: number;
     category: string;
     link: string;
+    previewLink: string;
     icon: string;
     image: string;
     title: string;
@@ -21,7 +22,8 @@ const portfolios = [
     {
         id: 1,
         category: 'Landings',
-        link: 'https://github.com/AndreiYantsevich/uber',
+        link: 'https://github.com/yantsev1ch/uber',
+        previewLink: 'https://yantsev1ch.github.io/uber/',
         icon: github,
         image: uber,
         title: 'Uber',
@@ -31,7 +33,8 @@ const portfolios = [
     {
         id: 2,
         category: 'Landings',
-        link: 'https://github.com/AndreiYantsevich/pulse',
+        link: 'https://github.com/yantsev1ch/pulse',
+        previewLink: 'https://yantsev1ch.github.io/pulse/',
         icon: github,
         image: pulse,
         title: 'Pulse Shop',
@@ -41,7 +44,8 @@ const portfolios = [
     {
         id: 3,
         category: 'React',
-        link: 'https://github.com/AndreiYantsevich/TodoList',
+        link: 'https://github.com/yantsev1ch/TodoList',
+        previewLink: 'https://yantsev1ch.github.io/TodoList/',
         icon: github,
         image: todo,
         title: 'ToDoList',
@@ -51,7 +55,8 @@ const portfolios = [
     {
         id: 4,
         category: 'React',
-        link: 'https://github.com/AndreiYantsevich/social',
+        link: 'https://github.com/yantsev1ch/social',
+        previewLink: 'https://yantsev1ch.github.io/social/',
         icon: github,
         image: social,
         title: 'Social Network',
@@ -61,7 +66,8 @@ const portfolios = [
     {
         id: 5,
         category: 'React',
-        link: 'https://github.com/AndreiYantsevich/counter',
+        link: 'https://github.com/yantsev1ch/counter',
+        previewLink: 'https://yantsev1ch.github.io/counter/',
         icon: github,
         image: counter,
         title: 'Counter',
@@ -71,7 +77,8 @@ const portfolios = [
     {
         id: 6,
         category: 'Landings',
-        link: 'https://github.com/AndreiYantsevich/wordpress',
+        link: 'https://github.com/yantsev1ch/wordpress',
+        previewLink: 'https://yantsev1ch.github.io/wordpress/',
         icon: github,
         image: wordpress,
         title: 'Wordpress',

@@ -1,12 +1,11 @@
 import React, {FC, memo} from 'react';
 
-import about from 'assets/avatars/about.jpg';
+import about from 'assets/avatars/about.png';
 
 import CV from '../assets/CV.pdf';
 
 const ImageSection: FC = memo(() => (
     <div className="ImageSection">
-        <img src={about} alt="avatar" className="img"/>
         <div className="about-info">
             <p className="about-text">
                 Now I am improving my skills in this direction and expanding them with

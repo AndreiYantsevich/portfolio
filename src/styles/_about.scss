@@ -3,23 +3,6 @@
   margin-top: 4rem;
   margin-bottom: 4rem;
 
-  .img {
-    overflow: hidden;
-    object-fit: cover;
-  }
-
-  .about-info {
-    margin-left: 2rem;
-
-    h4 {
-      font-size: 2rem;
-    }
-
-    .about-text {
-      padding: 0;
-    }
-  }
-
   @media screen and (max-width: 1400px) {
     flex-direction: column;
     .about-info {

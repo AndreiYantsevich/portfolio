@@ -2,7 +2,7 @@ import github from 'assets/svg/github.svg';
 import uber from 'assets/project-images/uber.jpg';
 import todo from 'assets/project-images/todolist.jpg';
 import social from 'assets/project-images/social.png';
-import pulse from 'assets/project-images/pulse.jpg';
+import ghUsers from 'assets/project-images/ghUsers.png';
 import counter from 'assets/project-images/counter.png';
 import wordpress from 'assets/project-images/wordpress.jpg';
 
@@ -32,14 +32,14 @@ const portfolios = [
     },
     {
         id: 2,
-        category: 'Landings',
-        link: 'https://github.com/yantsev1ch/pulse',
-        previewLink: 'https://yantsev1ch.github.io/pulse/',
+        category: 'React',
+        link: 'https://github.com/yantsev1ch/startup_summer_2021',
+        previewLink: 'https://yantsev1ch.github.io/startup_summer_2021/',
         icon: github,
-        image: pulse,
-        title: 'Pulse Shop',
-        tech: 'HTML5, SCSS, JavaScript.',
-        placeholder: 'A Pixel Perfect Landing Page.'
+        image: ghUsers,
+        title: 'GitHub Users Page',
+        tech: 'React, Redux, Redux-Thunk, Typescript',
+        placeholder: 'Application for displaying github users and their repositories.'
     },
     {
         id: 3,

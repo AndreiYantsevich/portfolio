@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c8d36f0a.chunk.css",
-    "main.js": "/portfolio/static/js/main.09ff7350.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.09ff7350.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.ddb1eb86.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ddb1eb86.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
     "static/js/2.96fbda7d.chunk.js": "/portfolio/static/js/2.96fbda7d.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/App.scss": "/portfolio/static/media/dots.943074de.svg",
     "static/media/emailme.8a80ecd4.svg": "/portfolio/static/media/emailme.8a80ecd4.svg",
     "static/media/foundations.a4438945.svg": "/portfolio/static/media/foundations.a4438945.svg",
+    "static/media/ghUsers.b1465c6a.png": "/portfolio/static/media/ghUsers.b1465c6a.png",
     "static/media/github.ce184f68.svg": "/portfolio/static/media/github.ce184f68.svg",
     "static/media/location.08194cba.svg": "/portfolio/static/media/location.08194cba.svg",
     "static/media/phone.da4610ad.svg": "/portfolio/static/media/phone.da4610ad.svg",
@@ -30,6 +31,6 @@
     "static/js/runtime-main.0bf68c44.js",
     "static/js/2.96fbda7d.chunk.js",
     "static/css/main.c8d36f0a.chunk.css",
-    "static/js/main.09ff7350.chunk.js"
+    "static/js/main.ddb1eb86.chunk.js"
   ]
 }

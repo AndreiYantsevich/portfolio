@@ -1,3 +1,16 @@
+# Portfolio.
+
+#### Author:
+- [Андрей @yantsev1ch](https://github.com/yantsev1ch) - Frontend developer
+
+#### Deploy: 
+- https://yantsev1ch.github.io/portfolio/
+
+### Stack:  
+1. React - https://reactjs.org/  
+3. Typescript - https://www.typescriptlang.org/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
